@@ -11,7 +11,7 @@ public class TitleScript : MonoBehaviour {
 		m_go_adv -= Time.deltaTime;
 		if (m_go_adv < 0.0f && !m_PlayButtonPushed) {
 			GlobalParam.GetInstance().SetMode(true);
-			UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene");
+			UnityEngine.SceneManagement.SceneManager.LoadScene("LoadingScene");
 		}
 	}
 
@@ -26,6 +26,6 @@ public class TitleScript : MonoBehaviour {
 	IEnumerator StartGame()
 	{
 		yield return new WaitForSeconds(1.0f);
-		UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene");
+		UnityEngine.SceneManagement.SceneManager.LoadScene("LoadingScene");
 	}
 }
