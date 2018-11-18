@@ -7,7 +7,8 @@ using System.Collections;
 
 public class Map : MonoBehaviour {
 	public GameCtrl 	m_gameCtrl;
-
+	public float BonusTimer;
+	public int stageNo;
 	private const int 	MAP_ORIGIN_X = 100;
 	private const int 	MAP_ORIGIN_Z = 100;
 
@@ -88,7 +89,9 @@ public class Map : MonoBehaviour {
 	
 	private void SetMapData()
 	{
-		int stageNo = m_gameCtrl.GetStageNo();
+		BonusTimer = 0;
+		stageNo = m_gameCtrl.GetStageNo();
+
 		if (stageNo > m_map_texasset.Length)
 			stageNo = (stageNo - 3) % 3 + 3;
 		LoadFromAsset(m_map_texasset[stageNo-1]);
@@ -105,7 +108,12 @@ public class Map : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if(stageNo == 4 && BonusTimer > 5) {
+			BonusTimer = 0;
+			m_gameCtrl.OnEatAll();
+		}
+
+		BonusTimer += Time.deltaTime;
 	}
 	
 	private void LoadFromAsset(TextAsset asset)

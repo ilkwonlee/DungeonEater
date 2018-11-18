@@ -10,7 +10,7 @@ public class Hud : MonoBehaviour {
 	public GameObject			m_uiScoreBoardPrefab;		// 
 
 	public GameObject			m_uiCanvas;
-	public UnityEngine.UI.Text	m_uiDemoText;
+//	public UnityEngine.UI.Text	m_uiDemoText;
 	public UnityEngine.UI.Image	m_uiReadyImage;
 	public UnityEngine.UI.Image	m_uiGameOverImage;
 	public UnityEngine.UI.Image	m_uiStageClearImage;
@@ -34,7 +34,7 @@ public class Hud : MonoBehaviour {
 		m_gameCtrl = GameObject.Find("GameCtrl").GetComponent<GameCtrl>();
 		OnGameStart();
 		
-		GlobalParam param = GlobalParam.GetInstance();
+	/*	GlobalParam param = GlobalParam.GetInstance();
 		if (param != null) {
 			if (param.IsAdvertiseMode()) {
 				m_uiDemoText.gameObject.SetActive(true);
@@ -42,7 +42,7 @@ public class Hud : MonoBehaviour {
 				m_uiDemoText.gameObject.SetActive(false);
 			}
 		}		
-	}
+	*/}
 
 	void	Update()
 	{
