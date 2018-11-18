@@ -26,7 +26,7 @@ public class GameCtrl : MonoBehaviour {
 	public FollowCamera		m_camera;
 	private int				m_retry_remain;
 	private ArrayList		m_objList = new ArrayList();
-	private int				m_stageNo = START_STAGE;
+	public int				m_stageNo = START_STAGE;
 	
 	// ================================================================ //
 	// MonoBehaviour 로부터 상속.
@@ -130,7 +130,10 @@ public class GameCtrl : MonoBehaviour {
 		GameObject.Find("Player").SendMessage("OnGameStart");
 		OnStageStart();
 	}
-	
+	public void Suarit()
+	{ 
+		m_stageNo++;
+	}
 	public void OnEatAll()
 	{
 		GameObject.Find("Player").SendMessage("OnStageClear");
