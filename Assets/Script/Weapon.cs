@@ -9,7 +9,8 @@ public class Weapon : MonoBehaviour {
 	private AudioChannels	m_audio;			// 오디오.  
 	public AudioClip 		m_swordAttackSE;	// 공격SE.
 	public GameObject 		SWORD_ATTACK_OBJ;	// 공격 범위 오브젝트.
-	
+	public GameObject GET_EFFECT;
+
 	private bool 		m_equiped = false;  // 검을 장착 중. 
 	private Transform 	m_target;  // 공격대상.
 	
@@ -118,6 +119,10 @@ public class Weapon : MonoBehaviour {
 		projectilePos = transform.position + transform.forward * 0.5f;
 		Instantiate(SWORD_ATTACK_OBJ,projectilePos,Quaternion.identity);
 		yield return null;
+
+		// 공격 효과
+		Object geteffect = Instantiate(GET_EFFECT,transform.position,Quaternion.identity);
+		Destroy(geteffect,1.0f);
 
 		// 방향을 원래대로 되돌린다.
 		Remove();
