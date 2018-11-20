@@ -5,7 +5,7 @@ public class TitleScript : MonoBehaviour {
 	public Texture m_titleTex;
 	public float m_go_adv = 10.0f;
 	private bool m_PlayButtonPushed = false;
-	
+
 	// Update is called once per frame
 	void Update () {
 		m_go_adv -= Time.deltaTime;
