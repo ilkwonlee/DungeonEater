@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class button2 : MonoBehaviour {
+public class CreditScene : MonoBehaviour {
 	void start() {
 
 	}
