@@ -6,8 +6,8 @@ public class Treasure : MonoBehaviour {
 	public GameObject m_pickupEffect;	// 주울 때의 효과.   
 	public AudioClip m_SEPickuped; 		// 주울 때의 SE.
 	public AudioClip m_SEAppear; 		// 주울 때의 SE.
-	public int m_point = 1000;			// 주울 때의 득점.
-	
+	public int m_point = 1000;          // 주울 때의 득점.
+    private int buzil = 0;
 	// 감소 시간.
 	public float m_lifeTime = 10.0f;
 	
@@ -39,4 +39,239 @@ public class Treasure : MonoBehaviour {
 			Destroy(gameObject);
 		}
 	}
+
+    public void Buzilx()
+    {
+        if(buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+        if (buzil = 0)
+            Console.write("Suarit Zillat!");
+    }
+
 }
